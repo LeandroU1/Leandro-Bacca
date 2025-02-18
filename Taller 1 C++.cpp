@@ -9,6 +9,8 @@ Write your code in this editor and press "Run" button to compile and execute it.
 #include <iostream>
 
 #include <iostream>
+
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -46,27 +48,19 @@ int main() {
     cout << "Ingrese el precio original: ";
     cin >> precioOriginal;
 
-    descuento = precioOriginal * 0.15;  // Calcula el 15% de descuento
-    precioFinal = precioOriginal - descuento;  // Resta el descuento al precio original
+    descuento = precioOriginal * 0.15;  
+    precioFinal = precioOriginal - descuento;  
 
     cout << "El descuento es: " << descuento << endl;
     cout << "El precio final con descuento es: " << precioFinal << endl;
 
     double valor = 10;
 
-    // Aumentar en 5
     valor += 5;
-    
-    // Reducir en 3
     valor -= 3;
-    
-    // Multiplicar por 2
     valor *= 2;
-    
-    // Dividir entre 4
     valor /= 4;
 
-    // Mostrar el resultado final
     cout << "El valor final es: " << valor << endl;
 
     return 0;
